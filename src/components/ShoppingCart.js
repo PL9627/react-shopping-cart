@@ -5,7 +5,7 @@ import Item from "./ShoppingCartItem";
 
 import { CartContext } from "../contexts/cartContext";
 
-const ShoppingCart = (props) => {
+const ShoppingCart = () => {
   const { cart } = useContext(CartContext);
 
   const getCartTotal = () => {
